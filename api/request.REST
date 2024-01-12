@@ -1,0 +1,13 @@
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "bring bread"
+}
+
+
+###
+
+DELETE http://localhost:3001/todo/delete/659fff721a343dce6f2efe2e
