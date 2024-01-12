@@ -4,10 +4,15 @@ POST http://localhost:3001/todo/new
 Content-Type: application/json
 
 {
-    "text": "bring bread"
+    "text": "bring eggs"
 }
 
 
 ###
 
-DELETE http://localhost:3001/todo/delete/659fff721a343dce6f2efe2e
+DELETE http://localhost:3001/todo/delete/659fffa4dabac4c03ac98804
+
+
+###
+
+PUT http://localhost:3001/todo/complete/65a0005f1825b53d2b87bf57
